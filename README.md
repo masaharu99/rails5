@@ -13,3 +13,5 @@ host: db
 username: postgres
 password: password
 ```
+4. `docker compose run web rails db:create`でDBを作成する
+5. `docker compose up`でサーバーを起動して、`localhost:3000`にアクセルできるか確認する
